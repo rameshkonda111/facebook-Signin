@@ -1,4 +1,9 @@
 <?php
+/*
+Author: Ramesh Konda
+Date : 14-1-2015
+purpose : Storing logged user details into database
+*/
 require 'dbconfig.php';
 function checkuser($fuid,$funame,$ffname,$femail){
     	$check = mysql_query("select * from Users where Fuid='$fuid'");
