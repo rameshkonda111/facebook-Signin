@@ -1,4 +1,9 @@
 <?php 
+/*
+Author: Ramesh Konda
+Date : 14-1-2015
+purpose : To logout
+*/
 session_start();
 session_unset();
     $_SESSION['FBID'] = NULL;
