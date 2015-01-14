@@ -1,4 +1,8 @@
 <?php
+/*
+Author: Ramesh Konda
+Date : 14-1-2015
+*/
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');    // DB username
 define('DB_PASSWORD', '');    // DB password
